@@ -1,15 +1,36 @@
 ## Customer-Subscription-Service-Analysis
 
+[Project Overview](project-overview)
+
+[Project Objectives](project-objectives)
+
+[Business Questions](business-questions)
+
+[Data Source](data-source)
+
+[Data Cleaning and Preprocessing](data-cleaning-and-preprocessing)
+
+[Data Analysis](data-analysis)
+
+[Data Visualisation Dashboard](data-visualisation--dashboard)
+
+[Summary of Findings, Insights and Inferences](summary-of-findings-insights-and-inferences)
+
+[Recommendation](recommendation)
+
+---
+
 ### Project Overview
 
 This project involves analyzing customer data for a subscription service to identify segments and trends, understand customer behavior, track subscription types, and identify key trends in cancellations and renewals.
 
+---
 ### Project Objectives
   1. Analyze customer data to identify segments and trends.
   2. Understand customer behavior.
   3. Track subscription types.
   4. Identify key trends in cancellations and renewals.
-
+---
 ### Business Questions
  1.	What are the subscription patterns among customers?
  2.	What are the most popular subscription types?
@@ -20,10 +41,11 @@ This project involves analyzing customer data for a subscription service to iden
  7.	How many customers have subscriptions for longer than 12 months?
  8.	 What is the total revenue by subscription type?
  9.	How many active and canceled subscriptions are there?
-      
+---      
 ### Data Source
 Customer Subscription data was obtained from Incubator Hub Data Training Class.
 
+---
 ### Data Cleaning and Preprocessing
 #### Tools Used
   - Microsoft Excel: This is used for data cleaning, preparation of pivot tables and key metric calculations
@@ -32,14 +54,19 @@ Customer Subscription data was obtained from Incubator Hub Data Training Class.
 ---
 ### Data Analysis
 #### 1. The most popular subscription type by the number of customers
-Image
+
+![Most Popular Subscription Type](https://github.com/user-attachments/assets/395e0e4a-404e-43b6-8301-4bcacd20dbab)
+
 Key finding/insights
  1.	The Basic subscription type is the most popular, with 16,921 customers, accounting for approximately 50% of the total customer base (33, 787).
  2.	The Basic subscription type is likely the entry point for most customers, indicating that the company's pricing strategy is effective in attracting new customers.
  3.	The popularity of the Basic subscription type suggests that customers value affordability and simplicity and may not require advanced features.
 
 #### 2. The Subscription Pattern
-Image
+
+![Subscription Pattern](https://github.com/user-attachments/assets/bdede7b6-4cfd-4593-a2b6-61ec7aa749ca)
+
+
 Key findings/insights
  1.	Regional subscription preferences vary: East (8,488) and North (8,433) prefer Basic, South (8,446) prefer Premium, and West (8,420) prefer Standard.
  2.	No single subscription type dominates across regions.
@@ -53,6 +80,8 @@ Key Inferences
     flexibility or customization (Standard).
 
 #### 3. The Top 3 regions by subscription cancellations
+
+![Top 3 Regions by subscription cancellation](https://github.com/user-attachments/assets/32a82533-b715-4c7c-be4a-33be99fbe9e0)
 
 Key Findings/Insights
  1. North region has the highest subscription cancellations (5,067).
@@ -68,6 +97,8 @@ Key Inferences
  3. Service or product issues: Regional customers may experience similar problems.
 
 #### 4. Total Active Subscription and Cancellelation
+
+![Total Subscription](https://github.com/user-attachments/assets/70fdc41c-992a-46d2-bf23-3e3ebdfee063)
 
 Key Findings/Insights
 
@@ -85,6 +116,8 @@ Key Inferences
  3. Customer Dissatisfaction: Cancellations may be due to unmet customer expectations or needs.
 
 #### 5. Total Revenue by Subscription Type
+
+![Total Revenue by Subscription Type](https://github.com/user-attachments/assets/f1c710d6-af6a-4e96-8970-8b161bc76831)
 
 Key Finding/Insights
 
@@ -104,6 +137,8 @@ Key Inferences
 3. Revenue streams: Diversified revenue streams reduce dependence on a single subscription type.
 
 #### 6. Average Subscription Duration for all customers
+
+![Average Subscription Duration](https://github.com/user-attachments/assets/e57d1f04-f3aa-4793-8bd7-8e636403ff0b)
 
 Key Findings/Insights
 
@@ -133,8 +168,19 @@ Key Inferences
 1. Onboarding issues: Customers may experience difficulties during the initial period.
 2. Unmet expectations: Services may not meet customer needs or expectations.
 3. Competitive pressure: Customers may find alternative solutions.
+---   
+### Data Visualisation Dashboard
 
-### Summary of findings, insights and inferences
+![Customer Subscription Dashboard](https://github.com/user-attachments/assets/b86ae3ae-01f4-4a25-a1a3-dacb6f4edfce)
+
+![Customer Subscription Dashboard 2](https://github.com/user-attachments/assets/98900c29-858c-4cd7-92e9-a5002ff27e85)
+
+### Pivot Table Image
+
+![Pivot Table](https://github.com/user-attachments/assets/678e8551-8f8c-4d52-b51c-11edc6cc9f36)
+
+---
+### Summary of Findings, Insights and Inferences
 
 #### Customer Subscription Patterns
 
@@ -148,46 +194,32 @@ Key Inferences
 2. Regional demographics and income levels influence subscription choices.
 3. Customers experience difficulties during onboarding or have unmet expectations.
 
-Revenue and Retention:
+#### Revenue and Retention
 
 1. Total revenue: $67,540,175 (Basic: 50%, Premium: 25%, Standard: 25%).
 2. High cancellation rate (45%) affects revenue growth and stability.
 3. Customer retention challenges due to unmet expectations or needs.
 
-Average Subscription Duration:
+#### Average Subscription Duration
 
 1. Customers retain subscriptions for approximately 1 year (365 days).
 2. Annual subscription cycles with low churn rate.
 
-Recommendations:
+---
 
-Short-term:
+### Recommendations
 
 1. Improve onboarding process to reduce early cancellations.
 2. Enhance customer support to address unmet expectations.
 3. Offer incentives for long-term commitments.
-
-Long-term:
-
-1. Refine pricing strategy to balance revenue and customer acquisition.
-2. Develop targeted marketing campaigns for regional preferences.
-3. Monitor customer satisfaction and feedback.
-
-Key Performance Indicators (KPIs):
-
-1. Cancellation rate
-2. Customer retention rate
-3. Average revenue per user (ARPU)
-4. Customer lifetime value (CLV)
-5. Subscription type mix
-
-By addressing these findings and implementing recommendations, the company can improve customer retention, revenue growth, and overall business performance.
+4. Develop targeted marketing campaigns for regional preferences.
+5. Monitor customer satisfaction and feedback to identify key trends in subscription service.
+---
 
 ### Code
 SQL queries: Check the below link for the full queries
 https://github.com/Ckenny-Analyst/Customer-Subscription-Service-Analysis/blob/25882bbc63e8186f1e902a9320c847f59e7c30e2/Customer.sql
+
 Excel formulas used
     =AVERAGEIF(D2:D33788,D2,I2:I33788)
     =SUMIF(D2:D33788,D2,H2:H33788)
-
-https://github.com/Ckenny-Analyst/Customer-Subscription-Service-Analysis/blob/25882bbc63e8186f1e902a9320c847f59e7c30e2/Customer.sql
